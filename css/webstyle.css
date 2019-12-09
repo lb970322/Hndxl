@@ -1,4 +1,4 @@
-@media screen and (max-width:1023px) {
+@media only screen and (max-width:1023px) {
     .pc02,
     .cont,
     .hf,
@@ -22,8 +22,9 @@
         display: flex;
     }
     .header_swrap .col-md-2 img {
-        margin-top: 20px;
+        margin-top: 22px;
         margin-left: 13%;
+        width: 50px;
     }
     .header_swrap .col-md-10,
     .header_swrap .col-md-2 {
@@ -39,14 +40,14 @@
     }
     .head_p {
         margin-left: 10px;
-        font-size: 14px;
+        font-size: 12px;
         color: rgb(70, 90, 221);
     }
     .head_t {
         float: right;
         position: relative;
-        top: -30px;
-        font-size: 14px;
+        top: -27px;
+        font-size: 12px;
         color: rgb(70, 90, 221);
     }
     .navb {
@@ -68,7 +69,7 @@
         display: inline-block;
         width: 100%;
         color: #ffffff;
-        font-size: 12px;
+        font-size: 10px;
     }
     .image_1 {
         width: 100%;
@@ -145,6 +146,8 @@
     }
     .web_cont_more {
         float: right;
+        width: 50%;
+        text-align: end;
         margin-top: 10px;
     }
     .web_cont_span {
@@ -155,6 +158,7 @@
     }
     .web_cont_img {
         width: 48%;
+        max-width: 145px;
         float: left;
         margin-left: 1%;
         margin-right: 1%;
@@ -180,25 +184,26 @@
     }
     .web_hf_zx {
         width: 40%;
+        max-width: 140px;
         margin: 0 auto;
         height: 65px;
+        text-align: center;
     }
     .web_hf_bg {
         position: relative;
         width: 100%;
+        max-width: 120px;
         margin-top: 14px;
     }
     .web_hf_logo {
         position: relative;
         width: 20px;
-        left: 15%;
-        top: -30px;
+        top: -27px;
     }
     .web_hf_zx a {
         display: inline-block;
         position: relative;
-        top: -29px;
-        left: 20%;
+        top: -26px;
         color: rgb(70, 90, 221);
     }
     .web_hf_msg {
@@ -242,7 +247,7 @@
     .ly_wrap .ly_msg_right {
         height: 100%;
         color: #ffffff;
-        font-size: 16px;
+        font-size: 14px;
         width: 85%;
         line-height: 40px;
         background-color: rgb(49, 49, 49);
@@ -286,6 +291,9 @@
     }
     .swiper-slide {
         text-align: center;
+    }
+    .swiper-slide img {
+        width: 80%;
     }
     .web_msg {
         height: 600px;
@@ -341,7 +349,8 @@
     }
     .msg_right_bottom {
         width: 100%;
-        margin-top: 25px;
+        max-width: 400px;
+        margin: 25px auto;
     }
     .web_news {
         width: 90%;
@@ -370,9 +379,20 @@
     .web_news_title h3 {
         font-size: 14px;
         font-weight: 600;
+        margin-top: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
     }
     .web_news_title p {
         font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
     }
     .newslist {
         margin-top: 20px;
@@ -440,9 +460,10 @@
         text-align: center;
     }
     .web_foot_bottom p {
-        font-size: 12px;
+        font-size: 10px;
         color: #ffffff;
         line-height: 30px;
+        margin-bottom: 0;
     }
     .web_foot_top_msg {
         margin: 0 auto;
@@ -459,8 +480,15 @@
         width: 100%;
         margin: 20px 0;
     }
+    .er img {
+        max-width: 80px;
+    }
     .liu img {
         width: 100%;
+        max-width: 80px;
+    }
+    .foot_log img {
+        max-width: 40px;
     }
     .foot_lx {
         text-align: center;
@@ -492,7 +520,7 @@
     }
 }
 
-@media screen and (max-width:321px) {
+@media screen and (max-width:1023px) {
     .web_cont_span {
         float: right;
         margin-top: -10px;
