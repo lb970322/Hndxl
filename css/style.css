@@ -11,6 +11,15 @@ span {
     font-family: 'SimHei';
 }
 
+li {
+    list-style: none;
+}
+
+a:hover,
+a:link {
+    text-decoration: none;
+}
+
 .col-xs-1,
 .col-sm-1,
 .col-md-1,
@@ -171,7 +180,7 @@ span {
         width: 90px;
         line-height: 30px;
         border: 1px solid rgb(224, 224, 224);
-        color: #000;
+        color: #777;
         text-decoration: none;
         vertical-align: middle;
     }
@@ -318,7 +327,7 @@ span {
         width: 20px;
         height: 48px;
     }
-    .swiper-container {
+    .application .swiper-container {
         --swiper-navigation-size: 20px;
         /* 设置按钮大小 */
     }
@@ -562,5 +571,6 @@ span {
     .foot_bottom p {
         color: rgb(234, 234, 234);
         font-size: 20px;
+        margin-bottom: 0;
     }
 }
