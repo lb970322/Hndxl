@@ -813,6 +813,10 @@ a:link {
         line-height: 25px;
         font-size: 18px;
     }
+    .ly {
+        max-width: 2500px;
+        margin: 0 auto;
+    }
     .ly_img,
     .application_img {
         text-align: center;
