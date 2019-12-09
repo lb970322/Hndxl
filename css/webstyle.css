@@ -298,8 +298,9 @@
     .web_msg {
         height: 600px;
         width: 100%;
-        margin-top: 12px;
         background: url("../image/web/17.png") no-repeat center;
+        max-width: 550px;
+        margin: 0 auto;
     }
     .msg_img {
         width: 60%;
