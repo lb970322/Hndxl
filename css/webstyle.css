@@ -448,6 +448,7 @@
     }
     .web_foot {
         width: 100%;
+        clear: both;
     }
     .web_foot_top {
         height: 560px;
