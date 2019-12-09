@@ -1,4 +1,4 @@
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1024px) {
     /* 路径模块 */
     .serch_left .breadcrumb {
         float: left;
@@ -16,6 +16,7 @@
         background-color: rgb(248, 248, 248);
         margin-top: 40px;
         margin-left: 10%;
+        position: absolute;
     }
     .left_nav_msg {
         display: flex;
@@ -125,14 +126,13 @@
     }
     /* 产品中心模块 */
     .chanpin_content {
-        height: 1000px;
+        height: 1042px;
     }
     .chanpin_swrap {
         width: 60%;
-        position: absolute;
         float: right;
-        top: 730px;
-        right: 10%;
+        margin-top: 20px;
+        margin-right: 10%;
         background-color: #f8f8f8;
     }
     .product-list {
@@ -192,7 +192,7 @@
         width: 100%;
     }
     .product-list ul li .chanpin_info {
-        padding-left: 255px;
+        /* padding-left: 255px; */
     }
     .product-list ul li .chanpin_info .chanpin_title_a {
         display: block;
@@ -310,7 +310,7 @@
     }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1023px) {
     /* 路径模块 */
     .serch_left .breadcrumb li,
     .serch_left .breadcrumb a {
@@ -320,8 +320,104 @@
     .left_nav {
         display: none;
     }
+    /* 产品介绍模块 */
+    .chanpin_swrap {
+        width: 100%;
+        float: right;
+        background-color: #f8f8f8;
+    }
+    .product-list {
+        padding: 15px 15px 0 15px;
+        background-color: #f8f8f8;
+        height: 500px;
+    }
+    .wjdh-title {
+        background-color: #fff;
+        padding: 10px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .chanpin_more {
+        float: right;
+        color: #999;
+    }
+    .wjdh-title .title-box {
+        padding-bottom: 1px;
+        border-bottom: 1px solid #ececec;
+    }
+    .wjdh-title h3 {
+        border-bottom: 1px solid #b00000;
+        font-size: 20px;
+        display: inline;
+        color: #b00000;
+    }
+    .wjdh-title h3 a {
+        color: #b00000;
+    }
+    .wjdh-title h3 small {
+        font-size: 16px;
+        color: #bcbcbc;
+        text-transform: uppercase;
+    }
+    .product-list ul {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .product-list ul li {
+        float: left;
+        width: 48%;
+        padding: 10px;
+        border: 1px solid #ececec;
+        background-color: #fff;
+        margin: 0 1% 20px 1%;
+    }
+    .chanpin_img {
+        float: left;
+        width: 100%;
+        height: 170px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 20px;
+    }
+    .chanpin_img a img {
+        width: 100%;
+    }
+    .product-list ul li .chanpin_info {
+        padding-left: 255px;
+    }
+    .product-list ul li .chanpin_info .chanpin_title_a {
+        display: block;
+        font-size: 16px;
+        line-height: 19px;
+        height: 38px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        color: #000000;
+        /* -webkit-transition: all .8s ease-out;
+        transition: all .8s ease-out; */
+    }
+    .product-list ul li .chanpin_info p {
+        color: #999;
+        line-height: 20px;
+        height: 60px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .product-list ul li .chanpin_info .chanpin_more_msg {
+        display: block;
+        color: #999;
+        border: 1px solid #999;
+        width: 80%;
+        height: 22px;
+        line-height: 22px;
+        margin: auto;
+        text-align: center;
+        /* -webkit-transition: all .8s ease-out;
+        transition: all .8s ease-out; */
+    }
     /* 轮播图模块 */
     .swiper_list {
-        /* display: none; */
+        display: none;
     }
 }
