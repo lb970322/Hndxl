@@ -6,8 +6,17 @@ h3 {
     font-family: 'Microsoft YaHei';
 }
 
+body {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 li {
     list-style: none;
+}
+
+a {
+    outline: none;
+    -moz-outline-style: none;
 }
 
 a,
