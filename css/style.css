@@ -83,6 +83,11 @@ a:hover {
         width: 100%;
         text-align: center;
     }
+    .web_navb_container a:hover {
+        color: #ffffff;
+        /* background-color: #7789ff; */
+        background-color: #465add;
+    }
     .web_swrap {
         display: inline-block;
         width: 24%;
@@ -550,6 +555,7 @@ a:hover {
         width: 90%;
         margin: 0 auto;
         background-color: #ffffff;
+        padding: 5px 10px;
     }
     .gsjj_content h1 {
         text-align: center;
@@ -565,6 +571,9 @@ a:hover {
         font-size: 16px;
         color: #505050;
         margin-top: 20px;
+    }
+    .page_content img {
+        max-width: 200px !important;
     }
 }
 
@@ -621,6 +630,11 @@ a:hover {
     .web_navb_container {
         width: 100%;
         text-align: center;
+    }
+    .web_navb_container a:hover {
+        color: #ffffff;
+        /* background-color: #7789ff; */
+        background-color: #465add;
     }
     .web_swrap {
         display: inline-block;
@@ -1089,6 +1103,7 @@ a:hover {
         width: 90%;
         margin: 0 auto;
         background-color: #ffffff;
+        padding: 5px 10px;
     }
     .gsjj_content h1 {
         text-align: center;
@@ -1104,6 +1119,13 @@ a:hover {
         font-size: 16px;
         color: #505050;
         margin-top: 20px;
+    }
+    .lxwm_border {
+        border: 1px solid #ceceec;
+        padding: 10px;
+    }
+    .page_content img {
+        max-width: 200px !important;
     }
 }
 
@@ -1200,6 +1222,11 @@ a:hover {
         height: 63px;
         overflow: hidden;
         text-align: center;
+    }
+    .navb_container a:hover {
+        color: #ffffff;
+        /* background-color: #7789ff; */
+        background-color: #2d41c3;
     }
     .a_swrap {
         width: 150px;
@@ -1770,6 +1797,22 @@ a:hover {
         margin: 30px auto 0 auto;
         overflow: hidden;
     }
+    /* 联系我们 */
+    .lxwm_border {
+        border: 1px solid #cecece;
+        padding: 10px;
+        width: 300px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .lxwm_form {
+        width: 300px;
+        border: 1px solid #cecece;
+        padding: 10px;
+        margin-bottom: 10px;
+        float: right;
+        text-align: center;
+    }
     /* 公司简介 */
     .gsjj {
         width: 100%;
@@ -1800,5 +1843,8 @@ a:hover {
     .gsjj_content h1 {
         text-align: center;
         color: #777777;
+    }
+    .page_content img {
+        max-width: 600px !important;
     }
 }
