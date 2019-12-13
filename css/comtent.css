@@ -1137,6 +1137,9 @@
         font-size: 18px;
         font-weight: 600;
     }
+    .chanpin_title_msg:hover {
+        color: #fff;
+    }
     .chanpin_logo_bottom {
         width: 50px;
         height: 45px;
@@ -1157,6 +1160,10 @@
     .chanpin_fuchuang dd {
         width: 280px;
         height: 35px;
+    }
+    .chanpin_fuchuang dd a:hover {
+        background-color: #465add;
+        color: #fff;
     }
     .chanpin_fuchuang dd a {
         display: inline-block;
@@ -1236,6 +1243,17 @@
         padding: 10px;
         background-color: #fff;
     }
+    .product_list:hover {
+        background-color: #465add;
+        color: #fff;
+    }
+    .product_list:hover .product_msg a,
+    .product_list:hover .product_msg p {
+        color: #fff;
+    }
+    .product_list:hover .product_msg .product_xq {
+        border: 1px solid #fff;
+    }
     .product_img {
         width: 220px;
         float: left;
@@ -1283,6 +1301,7 @@
     .product_swiper {
         width: 1200px;
         margin: 40px auto;
+        overflow: hidden;
     }
     .product_swiper_title {
         text-align: center;
@@ -1407,6 +1426,15 @@
         border-bottom: 1px dashed #cecece;
         padding: 15px;
         margin-bottom: 20px;
+    }
+    .xwzx_list:hover {
+        background-color: #465add;
+        color: #fff;
+    }
+    .xwzx_list:hover .xwzx_title a,
+    .xwzx_list:hover .xwzx_msg p,
+    .xwzx_list:hover .xwzx_xq a {
+        color: #fff;
     }
     .xwzx_title {
         height: 30px;
@@ -1604,6 +1632,13 @@
         background-color: #465add;
         transition: all 0.3s ease-out;
         color: #fff;
+    }
+    .gctz_list:hover .gctz_right .gctz_msg p,
+    .gctz_list:hover .gctz_right .gctz_more {
+        color: #fff;
+    }
+    .gctz_list:hover .gctz_right .gctz_more {
+        border: 1px solid #fff;
     }
     .gctz_img {
         display: inline-block;
