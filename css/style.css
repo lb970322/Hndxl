@@ -461,9 +461,9 @@ a:hover {
         padding-left: 10px;
     }
     .web_news_wen_msg a {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 30px;
-        color: #000000;
+        color: #777777;
         font-weight: 600;
     }
     .web_news_d_swrap {
@@ -574,6 +574,10 @@ a:hover {
     }
     .page_content img {
         max-width: 200px !important;
+    }
+    /* 产品页面选择器 */
+    .chanpin_select {
+        text-align: center;
     }
 }
 
@@ -1009,9 +1013,9 @@ a:hover {
         padding-left: 10px;
     }
     .web_news_wen_msg a {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 30px;
-        color: #000000;
+        color: #777777;
         font-weight: 600;
     }
     .web_news_d_swrap {
@@ -1123,9 +1127,22 @@ a:hover {
     .lxwm_border {
         border: 1px solid #ceceec;
         padding: 10px;
+        overflow: hidden;
+    }
+    .lxwm_l {
+        width: 25%;
+        float: left;
+    }
+    .lxwm_r {
+        width: 50%;
+        float: left;
     }
     .page_content img {
         max-width: 200px !important;
+    }
+    /* 产品页面选择器 */
+    .chanpin_select {
+        text-align: center;
     }
 }
 
@@ -1804,8 +1821,24 @@ a:hover {
         width: 550px;
         margin-bottom: 10px;
         float: left;
-        text-align: center;
         height: 413px;
+    }
+    .lxwm_l {
+        width: 80px;
+        text-align: left;
+        float: left;
+    }
+    .lxwm_l p {
+        height: 30px;
+        line-height: 30px;
+    }
+    .lxwm_r {
+        width: 400px;
+        float: left;
+    }
+    .lxwm_r p {
+        height: 30px;
+        line-height: 30px;
     }
     .lxwm_form {
         width: 600px;
@@ -1816,8 +1849,24 @@ a:hover {
         float: right;
         text-align: center;
     }
+    .lxwm_form form {
+        margin-top: 30px;
+    }
     .lxwm_form form .form-group label {
         float: left;
+    }
+    .lxwm_form form button {
+        width: 150px;
+        height: 50px;
+        line-height: 36px;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #465add;
+    }
+    .form_half {
+        width: 48%;
+        float: left;
+        margin-right: 11px;
     }
     /* 公司简介 */
     .gsjj {
@@ -1852,5 +1901,15 @@ a:hover {
     }
     .page_content img {
         max-width: 600px !important;
+    }
+    /* 产品页选择器 */
+    .chanpin_select {
+        text-align: center;
+        overflow: hidden;
+        width: 900px;
+        margin: 0 auto;
+    }
+    .chanpin_select .select_box {
+        margin-bottom: 0;
     }
 }

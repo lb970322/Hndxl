@@ -528,6 +528,28 @@
     .cpnr_msg_content p {
         text-align: left;
     }
+    /* 产品选择tab */
+    .tab {
+        overflow: hidden;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .scroll-tab {
+        display: flex;
+        position: relative;
+    }
+    .scroll-tab a {
+        padding: 10px 10px;
+        border-bottom: 2px solid transparent;
+        text-decoration: none;
+        color: #333333;
+        font-size: 14px;
+        font-family: "arial, helvetica, sans-serif", "微软雅黑";
+    }
+    .scroll-tab a.active {
+        color: #0894ec;
+        border-color: #0894ec;
+    }
 }
 
 @media (min-width:0px)and (max-width:640px) {
@@ -1059,6 +1081,28 @@
     }
     .cpnr_msg_content p {
         text-align: left;
+    }
+    /* 产品选择tab */
+    .tab {
+        overflow: hidden;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .scroll-tab {
+        display: flex;
+        position: relative;
+    }
+    .scroll-tab a {
+        padding: 10px 10px;
+        border-bottom: 2px solid transparent;
+        text-decoration: none;
+        color: #333333;
+        font-size: 14px;
+        font-family: "arial, helvetica, sans-serif", "微软雅黑";
+    }
+    .scroll-tab a.active {
+        color: #0894ec;
+        border-color: #0894ec;
     }
 }
 
@@ -1787,5 +1831,9 @@
     }
     .cpnr_msg_content p {
         text-align: left;
+    }
+    /* tab */
+    .tab {
+        display: none;
     }
 }
